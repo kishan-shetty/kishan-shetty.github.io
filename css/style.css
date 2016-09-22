@@ -1,0 +1,103 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 70px;
+}
+
+.navbar-brand, .navbar-nav li a
+{
+    line-height: 70px;
+    height: 70px;
+    padding-top: 0;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse
+{
+    max-height: 100%;
+}
+
+.navbar-header img
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-default .navbar-toggle
+{
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-toggle
+{
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bail-home h1
+{
+    line-height: 1.5;
+    margin-top: 0px;
+}
+
+.bail-home
+{
+    line-height: 1.5;
+    padding: 60px 0px 0px 60px;
+}
+
+.bail-home
+{
+    background-color: #333;
+    background-image: url(../img/video.if);
+    background-size: cover;
+    color: #fff;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+.bail-button
+{
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    text-align: center;
+    border: 1px solid #070707;
+    border-radius: 3px;
+    transition-duration: 0.2s;
+}
+
+.bail-button:hover
+{
+    background-color: #000;
+}
+
+.bail-home a
+{
+    color: #eaeaea;
+}
+
+.bail-home a:hover
+{
+    text-decoration: none;
+}
+
+.bail-section
+{
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.bail-main-home
+{
+    background-color: #eee;
+}
+
